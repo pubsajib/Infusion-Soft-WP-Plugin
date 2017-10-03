@@ -1,0 +1,1335 @@
+/* @font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/montserrat-font/Montserrat-Light.otf') format('OpenType');  
+  font-weight: normal;
+  font-style: normal;
+} */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.plugin-warpper{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 13px !important;
+}
+.search-result{
+
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 14px;
+
+    color: #333;
+
+}
+
+.search-result a{
+
+    outline: none;
+
+    text-decoration: none;
+
+    color: #333;
+
+}
+
+.lg-title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200 !important;
+    color: #56585c;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.tag-list,.social-list{
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+.tag-list>li, .social-list>li{
+
+    list-style: none;
+
+    float: left;
+
+}
+
+.teacher-list label{
+
+    font-weight: 500;
+
+    font-size: 14px;
+
+    font-family: 'Roboto', sans-serif !important;
+
+}
+
+.teacher-list-item {
+
+    background: #f3f3f3;
+
+    padding: 15px;
+
+    /* box-shadow: 2px 2px 6px 1px #dedede; */
+
+    box-shadow: 2px 2px 6px 1px #d0d0d0;
+
+}
+
+.teacher-list-item .media-heading, .teacher-list-item .media-heading>a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.teacher-list-item .media-heading>a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #333 !important;
+    text-decoration: none !important;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.media.teacher-list-item .media-object {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin-bottom: 10px;
+    max-width: inherit;
+}
+
+ul.social-list{
+
+  clear: both;
+
+}
+
+ul.social-list>li{
+
+    margin-right: 5px;
+
+}
+
+ul.social-list>li img {
+
+    height: 24px;
+
+    width: 24px;
+
+}
+
+ul.tag-list>li {
+
+    background: #d4f4ff;
+
+    margin-right: 5px;
+
+    padding: 0px 8px;
+
+    font-size: 11px;
+
+    border-radius: 10px;
+
+    border: 1px solid #87c7dc;
+
+    margin-bottom: 5px;
+
+}
+
+.post-item-content {
+
+    margin-bottom: 10px;
+
+    clear: both;
+
+    display: block;
+
+    float: left;
+
+    width: 100%;
+
+}
+
+.teachersearch{
+
+    height: 43px;
+
+    /* width: 250px; */
+
+}
+
+.search-option form {
+
+    /* margin-top: 50px; */
+
+    /* margin-bottom: 40px; */
+
+    border: 1px solid #dedede;
+
+    padding: 40px;
+
+    margin: 40px -10px;
+
+}
+
+.vr-line {
+
+    border-right: 1px solid #dedede;
+
+}
+
+.search-result{
+  background: #f3f3f3;
+  /* padding: 40px 0; */
+  padding: 100px 0;
+}
+
+.search-result .teacher-list-item{
+
+  background: #fff !important;
+
+  margin-bottom: 10px;
+
+}
+
+/* .btn-search {
+    color: #5cb85c;
+    border-color: #4cae4c;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: #fff;
+    font-weight: 400;
+} */
+.btn-search {
+    color: #52bfad;
+    border-color: #52bfad;
+    font-weight: 500;
+    font-size: 22px;
+    background-color: #fff;
+    font-weight: 400;
+    padding: 0px 12px;
+}
+.btn-search .ico{
+    margin-top: 7px;
+    float: right;
+    font-size: 13px;
+}
+.btn-search:hover, .btn-search:focus, .btn-search:active{
+    background-color: #fff !important;
+    border-color: #52bfad !important;
+    color: #52bfad !important;
+    outline: 0 !important;
+}
+.btn-search-parent{
+
+    margin-top: 30px;
+
+    margin-bottom: 5px;
+
+}
+
+.teacher-list-item:hover {
+
+    box-shadow: 2px 2px 6px 1px #bfbebe
+
+}
+
+.search-map{
+
+    width: 100%;
+
+    height: 450px;
+
+}
+
+.map-search-option{
+    border: 1px solid #dedede;
+    padding: 20px;
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.3);
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden; 
+}
+
+/*line through*/
+
+h2.line-through {
+
+    font: 15px sans-serif;
+
+    margin-top: 35px;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    font-weight: 600;
+
+    margin-bottom: 30px;
+
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+h2.background {
+
+  position: relative;
+
+  z-index: 1;
+
+}
+
+h2.background:before {
+
+  border-top: 2px solid #dfdfdf;
+
+  content: "";
+
+  margin: 0 auto;
+
+  /* this centers the line to the full width specified */
+
+  position: absolute;
+
+  /* positioning must be absolute here, and relative positioning must be applied to the parent */
+
+  top: 50%;
+
+  left: 0;
+
+  right: 0;
+
+  bottom: 0;
+
+  width: 95%;
+
+  z-index: -1;
+
+}
+
+h2.background span {
+
+  /* to hide the lines from behind the text, you have to set the background color the same as the container */
+
+  background: #fff;
+
+  padding: 0 15px;
+
+}
+
+.search-option-parent{
+
+    margin-bottom: 20px;
+
+    margin-top: 10px;
+
+}
+
+div#installerAddress {
+
+    max-height: 985px;
+
+    overflow-y: auto;
+
+    overflow-x: hidden;
+
+}
+
+.api-info p{
+
+  font-size: 14px;
+
+}
+
+/*profile page*/
+
+.profile {
+
+    background-color: #f3f3f3;
+
+    padding: 30px;
+
+    margin-top: 50px;
+
+}
+
+.profile-image {
+
+    border-radius: 50%;
+
+    height: 120px;
+
+    width: 120px;
+
+    margin: 0 auto;
+
+    display: block;
+
+    border: 5px solid rgba(176, 176, 176, 0.5);
+
+}
+
+.profile-header {
+
+    margin-bottom: 15px;
+
+}
+
+.profile-tags{
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+.profile-tags>li{
+
+    list-style: none;
+
+    margin-right: 5px;
+
+    display: inline-block;
+
+}
+
+
+
+.profile-social {
+
+    padding: 0 20px;
+
+    margin-top: 20px;
+
+    text-align: center;
+
+}
+
+.profile-social a {
+
+    border-radius: 50%;
+
+    width: 32px;
+
+    height: 32px;
+
+    line-height: 20px;
+
+    font-size: 15px;
+
+    padding: 5px 8px;
+
+}
+
+.profile-border{
+
+    border-right: 1px solid #dedede;
+
+}
+
+.profile-name{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 24px;
+
+    font-weight: 300;
+
+}
+
+.profile-common-info {
+
+    margin-bottom: 5px;
+
+}
+
+.profile-tag-list{
+
+    padding: 0;
+
+    width: 100%;
+
+}
+
+.profile-tag-list>li{
+
+    background: #e1f7ff;
+
+    margin-right: 5px;
+
+    padding: 2px 7px;
+
+    font-size: 13px;
+
+    border-radius: 10px;
+
+    border: 1px solid #87c7dc;
+
+    margin-bottom: 5px;
+
+    list-style: none;
+
+    width: 100%;
+
+    text-align: center;
+
+}
+
+.lg-no-margin-left{
+
+    margin-left: 0;
+
+}
+
+
+
+/*Login & Logout buttons*/
+
+.tab-content {
+
+    padding: 15px;
+
+    border: 1px solid #dedede;
+
+    border-top: 0;
+
+}
+
+.common-wrapper legend {
+
+    font-size: 19px;
+
+}
+
+.form-section{
+
+    border: 1px solid #dedede;
+
+    padding: 15px;
+
+    box-shadow: 0 2px 2px 0px rgba(0,0,0,0.3);
+
+    margin-bottom: 15px;
+
+}
+
+.common-wrapper label{
+
+    font-size: 13px;
+
+}
+
+.site-content {
+
+    padding: 2.5em 0 0;
+
+}
+
+.common-wrapper .dropbtn {
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+    background: #fff;
+
+    border: 1px solid #2e6da4;
+
+    padding: 5px;
+
+    background-color: #337ab7;
+
+}
+
+.common-wrapper{
+
+    position: relative;
+
+}
+
+.profile-login {
+
+    position: fixed;
+
+    display: inline-block;
+
+    right: 0;
+
+    top: 250px;
+
+}
+
+.profile-login-content {
+
+    display: none;
+
+    /*position: absolute;*/
+
+    position: fixed;
+
+    background-color: #f9f9f9;
+
+    min-width: 160px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    z-index: 1;
+
+    right: 0;
+
+    top: 290px;
+
+}
+
+.profile-login-content a {
+
+    color: black;
+
+    padding: 8px 16px;
+
+    text-decoration: none;
+
+    display: block;
+
+    border-bottom: 1px solid #dedede;
+
+    font-size: 13px;
+
+}
+
+.profile-login-content a:hover {background-color: #f1f1f1}
+
+.profile-login:hover .profile-login-content {
+
+    display: block;
+
+}
+
+.profile-login:hover .dropbtn, .profile-login:active .dropbtn, .profile-login:focus .dropbtn {
+
+    background-color: #337ab7;
+
+}
+
+.profile-avator{
+
+    height: 26px;
+
+    width: 26px;
+
+    border-radius: 50%;
+
+}
+
+
+
+/*Login teacher page*/
+
+.card-container.card {
+
+    max-width: 350px;
+
+    padding: 40px 40px;
+
+}
+
+
+
+.btn.btn-signin {
+
+    font-weight: 500;
+
+    height: 36px;
+
+    -moz-user-select: none;
+
+    -webkit-user-select: none;
+
+    user-select: none;
+
+    cursor: default;
+
+}
+
+
+
+/*
+
+ * Card component
+
+ */
+
+.card {
+
+    background-color: #F7F7F7;
+
+    /* just in case there no content*/
+
+    padding: 20px 25px 30px;
+
+    margin: 0 auto 25px;
+
+    margin-top: 50px;
+
+    /* shadows and rounded borders */
+
+    -moz-border-radius: 2px;
+
+    -webkit-border-radius: 2px;
+
+    border-radius: 2px;
+
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+.profile-img-card {
+
+    width: 96px;
+
+    height: 96px;
+
+    margin: 0 auto 10px;
+
+    display: block;
+
+    -moz-border-radius: 50%;
+
+    -webkit-border-radius: 50%;
+
+    border-radius: 50%;
+
+}
+
+
+
+/*
+
+ * Form styles
+
+ */
+
+.profile-name-card {
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    margin: 10px 0 0;
+
+    min-height: 1em;
+
+}
+
+
+
+.reauth-email {
+
+    display: block;
+
+    color: #404040;
+
+    line-height: 2;
+
+    margin-bottom: 10px;
+
+    font-size: 14px;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+    -moz-box-sizing: border-box;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+}
+
+
+
+.form-signin #inputEmail,
+
+.form-signin #inputPassword {
+
+    direction: ltr;
+
+    height: 44px;
+
+    font-size: 16px;
+
+}
+
+
+
+.form-signin input[type=email],
+
+.form-signin input[type=password],
+
+.form-signin input[type=text],
+
+.form-signin button {
+
+    width: 100%;
+
+    display: block;
+
+    margin-bottom: 10px;
+
+    z-index: 1;
+
+    position: relative;
+
+    -moz-box-sizing: border-box;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+}
+
+
+
+.form-signin .form-control:focus {
+
+    border-color: rgb(104, 145, 162);
+
+    outline: 0;
+
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+
+}
+
+
+
+.btn.btn-signin {
+
+    /*background-color: #4d90fe; */
+
+    background-color: rgb(104, 145, 162);
+
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+
+    padding: 0px;
+
+    font-weight: 500;
+
+    font-size: 14px;
+
+    height: 36px;
+
+    -moz-border-radius: 3px;
+
+    -webkit-border-radius: 3px;
+
+    border-radius: 3px;
+
+    border: none;
+
+    -o-transition: all 0.218s;
+
+    -moz-transition: all 0.218s;
+
+    -webkit-transition: all 0.218s;
+
+    transition: all 0.218s;
+
+}
+
+
+
+.btn.btn-signin:hover,
+
+.btn.btn-signin:active,
+
+.btn.btn-signin:focus {
+
+    background-color: rgb(12, 97, 33);
+
+}
+
+
+
+.forgot-password {
+
+    color: rgb(104, 145, 162);
+
+}
+
+
+
+.forgot-password:hover,
+
+.forgot-password:active,
+
+.forgot-password:focus{
+
+    color: rgb(12, 97, 33);
+
+}
+
+
+
+/*Profile teacher */
+
+.tab-content {
+
+    padding: 15px;
+
+    border: 1px solid #dedede;
+
+    border-top: 0;
+
+}
+
+legend {
+
+    font-size: 21px;
+
+}
+
+.form-section{
+
+    border: 1px solid #dedede;
+
+    padding: 15px;
+
+    box-shadow: 0 2px 2px 0px rgba(0,0,0,0.3);
+
+    margin-bottom: 15px;
+
+}
+
+span.select2.select2-container {
+
+    width: 100% !important;
+
+    display: block;
+
+}
+
+.select2-container--default .select2-selection--multiple {
+
+    border: 1px solid #ddd;
+
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+
+    border: 1px solid #5b9dd9 !important;
+
+    -webkit-box-shadow: 0 0 2px rgba(30,140,190,.8) !important;
+
+    box-shadow: 0 0 2px rgba(30,140,190,.8) !important;
+
+}
+
+
+
+/*Login form for teachers */
+
+.card-container.card {
+
+    max-width: 350px;
+
+    padding: 40px 40px;
+
+}
+
+
+
+.btn.btn-signin {
+
+    font-weight: 500;
+
+    height: 36px;
+
+    -moz-user-select: none;
+
+    -webkit-user-select: none;
+
+    user-select: none;
+
+    cursor: default;
+
+}
+
+
+
+/*
+
+ * Card component
+
+ */
+
+.card {
+
+    background-color: #F7F7F7;
+
+    /* just in case there no content*/
+
+    padding: 20px 25px 30px;
+
+    margin: 0 auto 25px;
+
+    margin-top: 50px;
+
+    /* shadows and rounded borders */
+
+    -moz-border-radius: 2px;
+
+    -webkit-border-radius: 2px;
+
+    border-radius: 2px;
+
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+.profile-img-card {
+
+    width: 96px;
+
+    height: 96px;
+
+    margin: 0 auto 10px;
+
+    display: block;
+
+    -moz-border-radius: 50%;
+
+    -webkit-border-radius: 50%;
+
+    border-radius: 50%;
+
+}
+
+
+
+/*
+
+ * Form styles
+
+ */
+
+.profile-name-card {
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    margin: 10px 0 0;
+
+    min-height: 1em;
+
+}
+
+
+
+.reauth-email {
+
+    display: block;
+
+    color: #404040;
+
+    line-height: 2;
+
+    margin-bottom: 10px;
+
+    font-size: 14px;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+    -moz-box-sizing: border-box;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+}
+
+
+
+.form-signin #inputEmail,
+
+.form-signin #inputPassword {
+
+    direction: ltr;
+
+    height: 44px;
+
+    font-size: 16px;
+
+}
+
+
+
+.form-signin input[type=email],
+
+.form-signin input[type=password],
+
+.form-signin input[type=text],
+
+.form-signin button {
+
+    width: 100%;
+
+    display: block;
+
+    margin-bottom: 10px;
+
+    z-index: 1;
+
+    position: relative;
+
+    -moz-box-sizing: border-box;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+}
+
+
+
+.form-signin .form-control:focus {
+
+    border-color: rgb(104, 145, 162);
+
+    outline: 0;
+
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+
+}
+
+
+
+.btn.btn-signin {
+    /*background-color: #4d90fe; */
+    background-color: rgb(104, 145, 162);
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    background-color: rgb(12, 97, 33);
+}
+.forgot-password {
+    color: rgb(104, 145, 162);
+}
+.forgot-password:hover,
+.forgot-password:active,
+.forgot-password:focus{
+    color: rgb(12, 97, 33);
+}
+.teacher-list-top>.media.teacher-list-item .media-object{
+    height: 60px;
+    width: 60px;
+}
+.jobTitle{
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.teacher-list-top .glyphicon{
+    font-size: 13px;
+    height: 22px;
+    width: 22px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    padding: 2px 3px;
+    font-size: 12px;
+}
+.sm-icon {
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+.page-template-search-teacher  .fusion-row{
+    width: 100%;
+    max-width: 100%;
+}
+.page-template-search-teacher  #main{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 45px;
+}
+
+/*================================*/
+/*Page template css*/
+/*================================*/
+.page-template-login-teacher .fusion-row,
+.page-template-search-teacher .fusion-row{
+   width: 100% !important;
+   max-width: 100% !important;
+}
+.page-template-login-teacher #main,
+.page-template-search-teacher #main{
+   width: 100%;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 45px;
+}
+
+/*Search page Corrections START*/
+.site {
+    margin: 0 !important;
+}
+.main-sub-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.main-sub-title:after {
+    content: '';
+    width: 180px;
+    height: 5px;
+    background: #52bfad;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+.w43{
+    width: 43%;
+}
+.w14{
+    width: 14%;
+}
+.circle-textbox {
+    height: 38px;
+    width: 38px;
+    text-align: center;
+    border: 2px solid #52bfad;
+    border-radius: 50%;
+    font-weight: 900;
+    color: #52bfad;
+    padding: 7px 5px;
+    font-size: 12px;
+    margin: 0 auto;
+}
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+.search-form-item{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #8e8f92;
+}
+.working-hour p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.working-hour ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.working-hour ul>li {
+    float: left;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border: 2px solid #52bfad;
+    border-radius: 50%;
+    font-weight: 900;
+    color: #52bfad;
+    padding: 7px 3px;
+    font-size: 11px;
+    margin-right: 5px;
+}
+.speciality {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+.teacher-list-top .fa {
+    font-size: 13px;
+    height: 22px;
+    width: 22px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    padding: 3px 6px;
+    font-size: 12px;
+}
+.teacher-list-top .glyphicon-envelope, .teacher-list-top .glyphicon-map-marker{
+    padding: 4px 3px;
+}
+.teacher-list-top .glyphicon-earphone{
+    padding: 3px 3px;
+}
+.search-w70{
+    width: 70%;
+    float: left;
+}
+.search-w30{
+    width: 30%;
+    float: left;
+}
+.teachersearchSubmit{
+
+}
+.bannerImage{
+    text-align: center;
+}
+.fusion-top-level-link {
+    color: #fff ;
+}
+
+/*Search page Corrections END*/
